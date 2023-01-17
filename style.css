@@ -27,7 +27,8 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 110vh;
+  background-color: #121214;
+  height: 120vh;
 }
 
 body * {
@@ -200,6 +201,18 @@ footer {
 
   .light {
     --bg-url: url(./assets/bg-desktop-light.png)
+  }
+}
+
+@media (max-width: 590px) {
+  body {
+    height: 200vh;
+  }
+}
+
+@media (max-width: 345px) {
+  body {
+    height: 250vh;
   }
 }
 
