@@ -26,14 +26,8 @@
 }
 
 body {
-  /* background-image: url(./assets/bg-mode.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover; */
-
-  /* background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  height: 110vh;
 }
 
 body * {
@@ -67,7 +61,6 @@ body * {
 #profile h2 {
   font-weight: 500;
   margin: 12px 0;
-  /* line-height: 24px; */
 }
 
 /* Switch */
@@ -84,7 +77,6 @@ body * {
   background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
-  /* background: var(--text-color); */
 
   position: absolute;
   top: 50%;
@@ -113,6 +105,17 @@ body * {
   border-radius: 9999px;
 }
 
+#about {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#about p {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
 /* Links */
 ul {
   list-style: none;
@@ -128,6 +131,7 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   padding: 16px 24px;
   background: var(--surface-color);
@@ -140,6 +144,16 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
   transition: background .2s;
+}
+
+ul li a h2 {
+  font-weight: 500;
+  margin: 8px 0;
+  text-align: center;
+}
+ul li a p {
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 /* Pseudo-selector */
