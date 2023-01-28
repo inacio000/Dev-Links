@@ -187,11 +187,11 @@ ul li a:hover {
 }
 
 #social-links #linkedin:hover {
-  background-image: linear-gradient(to right, #41aed992, #049dd992);
+  background-image: linear-gradient(to right, #41aed9ae, #049dd9ae);
 }
 
 #social-links #youtube:hover {
-  background-image: linear-gradient(to right, #f25a38ae, #f23105b5);
+  background-image: linear-gradient(to right, #f25a38ae, #f23105ae);
 }
 
 #social-links #instagram:hover {
