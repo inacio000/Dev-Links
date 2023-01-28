@@ -182,8 +182,20 @@ ul li a:hover {
   border-radius: 50%;
 }
 
-#social-links a:hover {
-  background: var(--highlight-color);
+#social-links #github:hover {
+  background-image: linear-gradient(to right, #515666ae, #343740ae);
+}
+
+#social-links #linkedin:hover {
+  background-image: linear-gradient(to right, #41aed992, #049dd992);
+}
+
+#social-links #youtube:hover {
+  background-image: linear-gradient(to right, #f25a38ae, #f23105b5);
+}
+
+#social-links #instagram:hover {
+  background-image: linear-gradient(to right, #f25c05ae, #f2a007ae, #d71b60ae, #7f24a6ae, #4429f2ae);
 }
 
 /* Media queries */
