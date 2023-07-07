@@ -1,7 +1,10 @@
 import './styles.scss';
 import { projectData } from '../../data';
 import { Card } from '../Card';
-import avatar from '../../assets/avatar.png'
+import avatar from '../../assets/avatar.png';
+import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
+import {BsFillFileEarmarkTextFill} from 'react-icons/bs';
+import cv from '../../assets/CV(Eng).pdf'
 
 export function Header() {
 
@@ -17,9 +20,18 @@ export function Header() {
             </div>
 
             <div className="switch">
-                <button>
-                </button>
-                <span></span>
+               <a href="">
+                   <AiFillGithub />
+               </a>
+               <a href="">
+                   <AiFillLinkedin />
+               </a>
+               <a href={cv} download="cv-en" className='cv'>
+                   <BsFillFileEarmarkTextFill 
+                    src={cv}
+                    alt="curriculum vitae"
+                   />
+               </a>
             </div>
 
             <div className="about">

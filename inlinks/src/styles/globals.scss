@@ -15,16 +15,6 @@
     --switch-bg-url: url(../assets/moon-stars.svg);
 }
 
-.light {
-    --text-color: black;
-    --bg-url: url(../assets/bg-mobile-light.jpg);
-    --stroke-color: rgba(0, 0, 0, 0.5);
-    --surface-color: rgba(0, 0, 0, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.02);
-    --highlight-color: rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(../assets/sun.svg);
-}
-
 @media (max-width: 1080px) {
     html {
         font-size: 93.75%;

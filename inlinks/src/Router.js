@@ -1,12 +1,13 @@
 import { Routes, Route } from "react-router-dom";
+import { Projects } from "./Pages/Projects";
+import { Header } from "./components/HeaderLayout";
 
 export function Router() {
     return (
         <Routes>
-            <Route path="/" element={<DefaultLayout />}>
-                <Route path="/" element={<Home />} />
-                <Route path="order" element={<Order />} />
-                <Route path="deliver" element={<Deliver />} />
+            <Route path="/" element={<Header />}>
+                {/* <Route path="/" element={<Header />} /> */}
+                <Route path="projects" element={<Projects />} />
             </Route>
         </Routes>
     )
